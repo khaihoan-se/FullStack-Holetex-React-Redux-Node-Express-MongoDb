@@ -1,11 +1,11 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
-import * as actions from './redux/actions';
+// import { useDispatch } from 'react-redux';
+// import * as actions from './redux/actions';
 
 function App() {
-  const dispatch = useDispatch()
+  // const dispatch = useDispatch()
 
-  dispatch(actions.getPosts.getPostsRequest)
+  // dispatch(actions.getPosts.getPostsRequest)
 
   return (
     <div className="App">
